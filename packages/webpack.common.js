@@ -27,7 +27,7 @@ module.exports = function(root) {
     },
     output: {
       filename: '[name].bundle.js',
-      path: path.join(root, 'public'),
+      path: root,
     },
     module: {
       noParse: /node_modules\/express\/lib\/view.js/,
